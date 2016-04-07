@@ -1,0 +1,17 @@
+body {margin:0px;font-size:medium;box-sizing:border-box;}
+/* h1,h2,h3,h4 {margin:0.5em;} */
+p {margin:0;padding:0.2em;}
+a {text-decoration:none;}
+hr {margin:0 auto;}
+button {margin:0 1.0em;}
+
+.hidden {visibility:collapse;display:none;}
+.expose {visibility:visible;display:block;} /* Here for completeness only. */
+.copyright {padding:5px;align:left;font-style:italic;font-size:small;}
+.loremipsum {margin:1em;}
+.marginSpacer {margin:0.5em;}
+.borderR {border:1px solid red;}
+.borderB {border:1px solid black;}
+
+#buttonLeft, #buttonLeftBottom {float:left;font-size:xx-small;}
+#buttonRight, #buttonRightBottom {float:right;font-size:xx-large;}
