@@ -3,17 +3,12 @@ Date: 2016-04-23<br>
 Last Update: 2016-04-23
 
 There are couple important points to make before going into the
-tutorial. As such this tutorial has four sections. The last
-section has the solution in code
+tutorial. As such this tutorial has four sections. 
 
-- &lt;span&gt; vs &lt;div&gt; makes a difference - in the final solution can be used with either a block-level element (like div) or and inline element (like span). However, both have side effects.
-- *min-height:* vs *line-height:* - the same goes when using `min-height:`. However, the better solution turns out to be `line-height:`.
-- &amp;nbsp; (nonbreaking space) has a Unicode equivalent - sometimes there needs to be some character in the "flow" so that layout works as expected. Typically a &amp;nbsp; can be used, however dynamically creating such structure would require the use of `innerHTML` - which can create a [security issue](innerHTMl-security.md). There is a Unicode equivalent.
-- Creating Vertical Blank Space
-
-First, 
- Next, 
- Lastly, 
+- &lt;span&gt; vs &lt;div&gt; makes a difference - in the final solution can be used with either a block-level element (like `div`) or and inline element (like `span`). However, both have side effects. For this tutorial, we will use `span`.
+- *min-height:* vs *line-height:* - similar issue happen when using `min-height:`. However, the better solution turns out to be `line-height:`.
+- &amp;nbsp; (nonbreaking space) has a Unicode equivalent - sometimes there needs to be some character in the "flow" so that layout works as expected. Typically a &amp;nbsp; can be used. However, typically, when dynamically creating such structure would require the use of `innerHTML` - which can create a [security issue](innerHTMl-security.md). There is a Unicode equivalent.
+- Creating Vertical Blank Space - This section has the solution in code
 
 ## &lt;span&gt; vs &lt;div&gt; makes a difference ##
 
@@ -24,7 +19,6 @@ First, let's look a general definition from [hotdog.com](http://htmldog.com/guid
 One common feature of both `span` and `div` is that when empty (that is there is nothing inside the element) they collapse to take no space.
 
 However, one side effect of concern is that `div` has margins, but `span` does not. This is because `span` is use to group or wrap other inline elements and/or text, rather than block level elements. This is especially visible if you put a few character inside the element and use a border with the element.
-
 
 ## *min-height:* vs *line-height:* ##
 
