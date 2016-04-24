@@ -17,9 +17,9 @@ The final solution can be used with either a block-level element (like div) or a
 
 First, let's look a general definition from [hotdog.com](http://htmldog.com/guides/html/intermediate/spandiv/)
 
-> The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
+> The difference between `span` and `div` is that a `span` element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a `div` (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
 
-One other side effect of concern is that `div` has margins, but `span` does not. This is because it is use to group or wrap other inline elements and/or text, rather than block level elements. 
+One other side effect of concern is that `div` has margins, but `span` does not. This is because `span` is use to group or wrap other inline elements and/or text, rather than block level elements. 
 
 
 ## *min-height:* vs *line-height:* ##
