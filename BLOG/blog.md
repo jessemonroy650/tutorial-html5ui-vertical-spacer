@@ -1,3 +1,17 @@
+# Tutorial: HTML5 &ndash; Notes on creating vertical blank space  #
+Date: 2016-04-23<br>
+Last Update: 2016-04-23
+
+There are several important points to make before going into this
+tutorial. 
+
+- onDeviceReady is required for Phonegap
+- &amp;nbsp; (nonbreaking space) has a Unicode equivalent
+- &lt;span&gt; vs &lt;div&gt; makes a difference
+
+## *min-height:* vs *line-height:* ##
+
+
 // http://stackoverflow.com/questions/5237989/nonbreaking-space
 //
 function  onDeviceReady() {

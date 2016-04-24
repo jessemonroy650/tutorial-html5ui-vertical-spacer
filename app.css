@@ -8,7 +8,9 @@ button {margin:0 1.0em;}
 .hidden {visibility:collapse;display:none;}
 .expose {visibility:visible;display:block;} /* Here for completeness only. */
 .copyright {padding:5px;align:left;font-style:italic;font-size:small;}
-.loremipsum {margin:1em;}
+div.loremipsum {margin:1em;}
+span.loremipsum {color:rgb(160,160,160);}
+.thediff {font-size:125%;font-style:italic;}
 .marginSpacer {margin:0.5em;}
 .borderR {border:1px solid red;}
 .borderB {border:1px solid black;}
